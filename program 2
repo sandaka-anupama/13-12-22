@@ -1,0 +1,7 @@
+# To remove duplicate value from list
+list1=[1,2,3,45,3,4]
+print(list(set(list1)))
+
+output:
+===================================================== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/insert.py ====================================================
+[1, 2, 3, 4, 45]
