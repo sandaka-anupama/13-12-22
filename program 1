@@ -1,0 +1,16 @@
+ap=[]
+n=int(input('Enter no.of districts:'))
+for i in range(n):
+    x=input('Enter district name:')
+    ap.append(x)
+ap.sort()
+print(ap)
+
+output:
+===================================================== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/insert.py ====================================================
+Enter no.of districts:4
+Enter district name:kakinada
+Enter district name:vskp
+Enter district name:srikakulam
+Enter district name:amalapuram
+['amalapuram', 'kakinada', 'srikakulam', 'vskp']
